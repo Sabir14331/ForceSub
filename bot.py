@@ -196,7 +196,7 @@ async def _(event):
 @BotzHub.on(events.NewMessage(pattern="^/start$"))
 async def strt(event):
     await event.reply(
-        f"Hi. I'm a force subscribe bot made specially for @{channel}!\n\nCheckout @Thundvideoibot :)",
+        f"Hi.നിങ്ങൾ താഴെ കാണുന്ന ഗ്രൂപ്പുകളിൽ ജോയിൻ ചെയ്താൽ കിടുക്കാച്ചി സാധനം കിട്ടും @{channel}!\n\nCheckout @Thundvideoibot :)",
         buttons=[
             Button.url("Channel", url=f"https://t.me/{channel}"),
             Button.url("തുണ്ട്", url="https://t.me/Thundvideoibot"),
