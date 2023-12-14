@@ -199,7 +199,7 @@ async def strt(event):
         f"Hi.നിങ്ങൾ താഴെ കാണുന്ന ഗ്രൂപ്പുകളിൽ ജോയിൻ ചെയ്താൽ കിടുക്കാച്ചി സാധനം കിട്ടും @{channel}!\n\nCheckout @Thundvideoibot :)",
         buttons=[
             Button.url("Channel", url=f"https://t.me/{channel}"),
-            Button.url("തുണ്ട്", url="https://t.me/Thundvideoibot"),
+            Button.url("തുണ്ട്", url="https://t.me/kambichat2"),
         ],
     )
 
